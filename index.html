@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shiva Saranya Guddati | Portfolio</title>
+<style>
+:root{--bg:#0b1220;--panel:#121d30;--text:#eef4ff;--muted:#b7c3d8;--accent:#71e0cf;--line:#26354d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#0b1220,#101b2d);color:var(--text);line-height:1.6}
+.wrap{width:min(1000px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px}.brand{font-weight:800;letter-spacing:.3px}.nav a,.links a{color:var(--text);text-decoration:none;margin-left:16px}.nav a:hover,.links a:hover{color:var(--accent)}
+.hero{padding:70px 0 56px}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.82rem}.hero h1{font-size:clamp(2.3rem,7vw,4.5rem);line-height:1.05;margin:14px 0}.hero p{max-width:680px;color:var(--muted);font-size:1.1rem}.btn{display:inline-block;background:var(--accent);color:#07131b;text-decoration:none;font-weight:800;padding:11px 18px;border-radius:9px;margin:12px 10px 0 0}.btn.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}
+section{padding:28px 0 36px}.section-title{font-size:1.7rem;margin:0 0 18px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}.card{background:rgba(18,29,48,.9);border:1px solid var(--line);padding:22px;border-radius:16px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0 0 10px}.tag{display:inline-block;border:1px solid #385268;color:var(--accent);padding:4px 9px;border-radius:30px;font-size:.82rem;margin:4px 4px 0 0}.muted{color:var(--muted)}footer{border-top:1px solid var(--line);padding:24px 0 38px;color:var(--muted);margin-top:24px}
+@media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}.nav a{margin:0 14px 0 0}.hero{padding-top:45px}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <div class="brand">SHIVA SARANYA GUDDATI</div>
+  <nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a></nav>
+</header>
+<main class="wrap">
+  <section class="hero" id="about">
+    <div class="eyebrow">Computer Science &amp; Information Technology</div>
+    <h1>Hi, I'm Shiva Saranya.</h1>
+    <p>A second-year B.Tech student at SRKR Engineering College with a strong academic foundation and an interest in software development, web technologies, and practical problem-solving.</p>
+    <a class="btn" href="https://github.com/shivasaranya" target="_blank" rel="noopener">View GitHub</a>
+    <a class="btn secondary" href="#projects">Explore Projects</a>
+    <p class="muted">CGPA: 9.42 · SRKR Engineering College</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="card">
+      <span class="tag">C</span><span class="tag">Java</span><span class="tag">Python</span>
+      <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+      <span class="tag">Data Structures &amp; Algorithms</span><span class="tag">Problem Solving</span><span class="tag">UI/UX Fundamentals</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>SkillBridge</h3>
+        <p><strong>Student Skill Development Portal</strong></p>
+        <p>A platform concept connecting students with recruiters through skill-based job and internship matching. Includes student profiles, skill-gap analysis, and recruiter-side functionality.</p>
+        <span class="tag">Web Development</span><span class="tag">Hackathon</span>
+        <p class="muted" style="margin-top:12px">SRKR Girls Hostel Hackathon</p>
+      </article>
+      <article class="card">
+        <h3>RakshaSethu</h3>
+        <p><strong>Disaster Management System</strong></p>
+        <p>A map-based disaster-risk assessment and relief-coordination concept focused on identifying high-risk regions and visualizing shelter capacity for emergency planning.</p>
+        <span class="tag">Disaster Management</span><span class="tag">Mapping</span>
+        <p class="muted" style="margin-top:12px">Smart India Hackathon (SIH)</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2 class="section-title">Achievements &amp; Certifications</h2>
+    <div class="grid">
+      <article class="card"><h3>Reliance Foundation Scholar</h3><p>Recipient of the Reliance Foundation scholarship.</p></article>
+      <article class="card"><h3>Smart India Hackathon</h3><p>Participated with the RakshaSethu disaster-management project.</p></article>
+      <article class="card"><h3>BE10X AI Tools Workshop</h3><p>Completed a workshop on practical AI tools for productivity and problem-solving.</p></article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Connect</h2>
+    <div class="card">
+      <p class="muted">I'm interested in learning, collaborating on projects, and exploring opportunities to grow as a developer.</p>
+      <div class="links"><a href="https://github.com/shivasaranya" target="_blank" rel="noopener">GitHub Profile ↗</a></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© 2026 Shiva Saranya Guddati · Student Portfolio</div></footer>
+</body>
+</html>
